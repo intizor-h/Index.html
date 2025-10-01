@@ -35,7 +35,6 @@ document.getElementById("signupForm").addEventListener("submit", function(event)
         }
 
 
-    // Confirm Password validation
     let confirmPassword = document.getElementById("confirmPassword");
     if (confirmPassword.value.trim() === "")
         {
